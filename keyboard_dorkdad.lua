@@ -125,6 +125,8 @@ function Controller.key_press_update(self, key, dt)
 		elseif key == "i" or key == "v" then
 			invert_selection()
 			discard_or_play()
+		elseif key == "r" then
+			invert_selection()
 		elseif key == "u" or key == "n" then
 			G.hand:unhighlight_all()
 		elseif key == "left" then
