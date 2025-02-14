@@ -39,17 +39,6 @@ Many keyboard shortcuts for the game  [Balatro](https://store.steampowered.com/a
 
 #### Left - Select the leftmost 5 cards in hand
 
-### Flush Keys
-
-## C (Clubs), H (Hearts), D (Diamonds), S (Spades)
-
-Make progress towards a flush of this suit.  Discard unused cards if discards are remaining, otherwise play them.
-Plays the flush if one is found.
-
-## F (Flush)
-
-Determines what your closests flush is, and progress towards it automatically.  Super helpful for Ante 1.
-
 ### Best hand
 
 Press B to select your best poker hand.  Repeat pressing B to see the next best hand.
