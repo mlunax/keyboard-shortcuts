@@ -1,5 +1,5 @@
 --- STEAMODDED HEADER
---- MOD_NAME: Keyboard Shortcuts DorkDad
+--- MOD_NAME: Keyboard Shortcuts mlunax
 --- MOD_ID: keyboard_dorkdad
 --- MOD_AUTHOR: [DorkDad141]
 --- MOD_DESCRIPTION: Add keyboard shortcuts to the game
@@ -87,6 +87,11 @@ function Controller.key_press_update(self, key, dt)
 			G.FUNCS.reroll_shop(1)
 		elseif key == "space" then
 			G.FUNCS.toggle_shop(1)
+		elseif keys_to_ui[key] == "run_info" then
+			local run_info_button = G.HUD:get_UIE_by_ID("run_info_button")
+			if run_info_button.config.button == "run_info" then
+				G.FUNCS.run_info()
+			end
 		end
 	elseif G.STATE == G.STATES.SELECTING_HAND then
 		if tableContains(keys_to_nums, key) then
