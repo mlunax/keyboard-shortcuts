@@ -54,8 +54,9 @@ Heavily inspired by [Aroraaa's](https://github.com/Agoraaa/FlushHotkeys) mod
 
 ### Specific Cards
 
-2/3/4/5/6/7/8/9/J/Q/K/A will select all cards of the corresponding number/
-Use either 0 or 1 for 10s.
+2/3/4/5/6/7/8/9/J/Q/K will select all cards of the corresponding number  
+Use "`" (tilda/grave) for Aces  
+Use either 0 or 1 for 10s.  
 
 ## Installation
 

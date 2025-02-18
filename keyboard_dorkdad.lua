@@ -39,7 +39,7 @@ function Controller.key_press_update(self, key, dt)
 		["j"] = 11,
 		["q"] = 12,
 		["k"] = 13,
-		["a"] = 14,
+		["`"] = 14,
 	}
 	keys_to_ui = {
 		["z"] = "sort_value",
